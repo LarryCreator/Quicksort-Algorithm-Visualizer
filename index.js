@@ -100,4 +100,7 @@ runAlgoButton.addEventListener('click', e=>{
         running = true;
     }
 })
-newValuesButton.addEventListener('click', e=>{valuesToSort.reset()});
+newValuesButton.addEventListener('click', e=>{
+    valuesToSort.reset();
+    running = false;
+});
